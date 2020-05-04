@@ -24,7 +24,7 @@ running on Kubernetes.
 
 ### 2) Create a secret on Kubernetes that contains the Dropbox's access token
 
-````shell
+```shell
 kubectl create secret generic pageperso-secrets --from-literal=DROPBOX_ACCESS_TOKEN=<TOKEN>
 ```
 
