@@ -21,10 +21,10 @@ cat <<EOF > /etc/nginx/conf.d/website.conf
 
 server {
     listen 8000;
-    root /mnt/dropbox/Apps/site44/about.jonathanpastor.fr/;
+    root /mnt/dropbox/pageperso/;
     error_page 404 /404.html;
     location ~ "^/error-pages" {
-             root   /mnt/dropbox/Apps/site44/about.jonathanpastor.fr/;
+             root   /mnt/dropbox/pageperso/;
              internal;
     }
 }
