@@ -80,10 +80,10 @@ Choose the following parameters
 and proceed with the creation of the app.
 
 Browse to the description of your new app, and click on the "Generate" button under the `Generated access token` label:
-![assets/dropbox4.png](assets/dropbox4.png)
+![assets/dropbox5.png](assets/dropbox5.png)
 
 A token should have been generated:
-![assets/dropbox5.png](assets/dropbox5.png)
+![assets/dropbox6.png](assets/dropbox6.png)
 
 Remember this token. We will refer later to this token as `<TOKEN>`
 
