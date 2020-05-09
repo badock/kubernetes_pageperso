@@ -31,10 +31,10 @@ server {
 
 server {
     listen 8001;
-    root /mnt/dropbox/Apps/site44/dropbox.jonathanpastor.fr/;
+    root /mnt/dropbox/public/;
     error_page 404 /404.html;
     location ~ "^/error-pages" {
-             root   /mnt/dropbox/Apps/site44/dropbox.jonathanpastor.fr/;
+             root   /mnt/dropbox/public/;
              internal;
     }
 }
