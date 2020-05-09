@@ -44,11 +44,11 @@ Check the configuration parameters of the cluster, and if it matches what is exp
 
 After few minutes, the cluster should be available in your dashboard:
 
-![assets/scaleway4.png](assets/scaleway4.png)
+![assets/scaleway5.png](assets/scaleway5.png)
 
 Before proceeding with the rest, download the config file of the Kubernetes cluster and move it to `~/.kube/config`:
 
-![assets/scaleway5.png](assets/scaleway5.png)
+![assets/scaleway6.png](assets/scaleway6.png)
 
 Check that you can interact with your Kubernetes cluster with the [kubectl](https://kubernetes.io/fr/docs/tasks/tools/install-kubectl/) command:
 
