@@ -253,6 +253,16 @@ Apply the changes to the cluster:
 kubectl apply -f pageperso.yaml
 ```
 
+## Troubleshooting
+
+### Cannot resolve domain names inside containers
+
+CoreDNS may have crashed. You can restart it via the following command:
+
+```shell
+kubectl --namespace=kube-system rollout restart deployment coredns
+```
+
 ## Contact
 
 Feel free to contact me or to open an issue.
