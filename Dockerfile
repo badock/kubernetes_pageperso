@@ -6,6 +6,7 @@ ENV DROPBOX_ACCESS_TOKEN $DROPBOX_ACCESS_TOKEN
 
 RUN apt update
 RUN apt install -y wget rclone nginx fuse sudo
+RUN apt install -y nano iputils-ping
 COPY contextualize.sh .
 
 EXPOSE 8000 8001
